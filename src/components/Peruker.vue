@@ -3,7 +3,7 @@
     <v-layout row wrap align-center justify-center>
       <v-card max-width="344" class="ma-10 text-center">
         <v-card-title class="justify-center">Naturligt utseende</v-card-title>
-        <v-card-text>Freedom Hair peruker tillverkas av naturligt hår av bästa kvalité. Håret i perukerna har inte blekts, färgats eller behandlats på något sätt. När du beställer din Freedom Hair får du gärna specificera vilken typ av hår du vill ha. Ett utmärkt sätt att förmedla dina önskemål till oss är via bilder, varför inte ett foto av dig från förr?</v-card-text>
+        <v-card-text>Freedom Hair peruker tillverkas av obehandlat europeiskt hår av bästa kvalité. Håret i perukerna har inte blekts, färgats eller behandlats på något sätt. När du beställer din Freedom Hair får du gärna specificera vilken typ av hår du vill ha. Ett utmärkt sätt att förmedla dina önskemål till oss är via bilder, varför inte ett foto av dig från förr?</v-card-text>
       </v-card>
 
       <v-card max-width="344" class="ma-10 text-center">

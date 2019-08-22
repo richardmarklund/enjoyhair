@@ -4,7 +4,7 @@
     <v-layout row wrap align-center justify-center>
       <v-timeline :dense="$vuetify.breakpoint.smAndDown">
         <v-timeline-item color="primary" fill-dot right>
-          <v-card>
+          <v-card class="mr-3">
             <v-card-title class="primary">
               <v-icon size="42" dark class="mr-4">mdi-magnify</v-icon>
               <h2 class="display-1 white--text font-weight-light">Boka möte</h2>
@@ -21,7 +21,7 @@
         </v-timeline-item>
 
         <v-timeline-item color="secondary" fill-dot left small>
-          <v-card>
+          <v-card class="mr-3">
             <v-card-title class="secondary justify-end">
               <h2 class="display-1 font-weight-light mr-4">Möte</h2>
               <v-icon size="42">mdi-home-outline</v-icon>
@@ -36,7 +36,7 @@
         </v-timeline-item>
 
         <v-timeline-item color="third" fill-dot right>
-          <v-card>
+          <v-card class="mr-3">
             <v-card-title class="third">
               <v-icon class="mr-4" size="42">mdi-checkbox-marked-outline</v-icon>
               <h2 class="display-1 font-weight-light">Provhätta</h2>
@@ -51,7 +51,7 @@
         </v-timeline-item>
 
         <v-timeline-item color="secondary" fill-dot left small>
-          <v-card>
+          <v-card class="mr-3">
             <v-card-title class="secondary white justify-end">
               <h2 class="display-1 font-weight-light mr-4">Leverans</h2>
               <v-icon size="42">mdi-truck</v-icon>
@@ -71,7 +71,7 @@
         </v-timeline-item>
 
         <v-timeline-item color="primary" fill-dot right>
-          <v-card>
+          <v-card class="mr-3">
             <v-card-title class="primary">
               <v-icon class="mr-4" dark size="42">mdi-content-cut</v-icon>
               <h2 class="display-1 white--text font-weight-light">Frisör</h2>
