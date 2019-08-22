@@ -9,7 +9,7 @@
           >mdi-instagram</v-icon>
         </v-layout>
         <vue-instagram
-          token="13609822533.0180e1c.dfbad10e159843a9a0b46e6384a4bb67"
+          token="13609822533.0180e1c.0f3427c151b241a98b0ddc87ee91292c"
           :count="4"
           :mediaType="image"
         >
