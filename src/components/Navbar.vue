@@ -78,7 +78,7 @@
                 <v-icon
                   v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
                   size="36"
-                >mdi-instagram</v-icon>ß
+                >mdi-instagram</v-icon>
               </v-list-item>
             </v-list-item-content>
           </v-list-item>
