@@ -44,6 +44,11 @@
             min-width="150"
             v-on:click="$vuetify.goTo('#kontakt')"
           >Kontakt</v-btn>
+          <v-icon
+            v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
+            size="36"
+            class="hidden-sm-and-down"
+          >mdi-instagram</v-icon>
           <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"></v-app-bar-nav-icon>
         </v-layout>
       </v-container>
@@ -69,6 +74,12 @@
               <v-list-item class="justify-center">
                 <v-btn v-on:click="drawer=false; $vuetify.goTo('#kontakt')" text small>Kontakt</v-btn>
               </v-list-item>
+              <v-list-item class="justify-center">
+                <v-icon
+                  v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
+                  size="36"
+                >mdi-instagram</v-icon>ß
+              </v-list-item>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -84,6 +95,11 @@ export default {
     return {
       drawer: false
     };
+  },
+  methods: {
+    openUrl: function(url) {
+      window.open(url, "_blank");
+    }
   }
 };
 </script>

@@ -6,7 +6,7 @@
         <v-timeline-item color="primary" fill-dot right>
           <v-card class="mr-3">
             <v-card-title class="primary">
-              <v-icon size="42" dark class="mr-4">mdi-magnify</v-icon>
+              <v-icon size="36" dark class="mr-4">mdi-magnify</v-icon>
               <h2 class="display-1 white--text font-weight-light">Boka möte</h2>
             </v-card-title>
             <v-container>
