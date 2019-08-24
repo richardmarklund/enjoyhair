@@ -18,11 +18,13 @@
               v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
               :src="props.feed.images.low_resolution.url"
               class="ma-4 hidden-md-and-down"
+              alt="peruk"
             />
             <v-img
               v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
               :src="props.feed.images.low_resolution.url"
               class="ma-4 hidden-lg-and-up"
+              alt="peruk"
             />
           </template>
           <template slot="error" slot-scope="props">
