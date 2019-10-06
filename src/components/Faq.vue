@@ -2,7 +2,9 @@
   <v-container fluid id="faq">
     <v-layout row wrap align-center justify-center>
       <v-card max-width="1600" class="ma-10 text-center">
-        <v-card-title class="justify-center">FAQ</v-card-title>
+        <h1>
+          <v-card-title class="justify-center">FAQ</v-card-title>
+        </h1>
         <v-container fluid>
           <v-layout row wrap align-center justify-center>
             <v-card max-width="400" class="ma-1" flat>
@@ -48,6 +50,13 @@
                 class="subtitle-1 justify-center"
               >Vilka valmöjligheter har jag gällande perukens utseende?</v-card-title>
               <v-card-text>Du har många val när det kommer till din peruks utseende. Du har möjlighet att välja längd, färg, grad av lockighet, volym och riktning av bena.</v-card-text>
+            </v-card>
+          </v-layout>
+          <v-layout row wrap align-center justify-center>
+            <v-card max-width="400" class="ma-1" flat>
+              <v-card-actions>
+                <v-btn to="/alopeci-peruk" exact>Mer information</v-btn>
+              </v-card-actions>
             </v-card>
           </v-layout>
         </v-container>

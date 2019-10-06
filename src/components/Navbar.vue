@@ -3,47 +3,17 @@
     <v-app-bar dense hide-on-scroll height="75" app scroll-threshold="200">
       <v-container>
         <v-layout justify-space-between align-center>
-          <v-toolbar-title>
-            <v-layout align-center>
+          <router-link to="/">
+            <v-toolbar-title>
               <div class="display-1">Enjoy Hair</div>
-            </v-layout>
-          </v-toolbar-title>
+            </v-toolbar-title>
+          </router-link>
           <v-spacer></v-spacer>
-          <v-btn
-            text
-            small
-            class="hidden-sm-and-down"
-            min-width="150"
-            v-on:click="$vuetify.goTo('#peruker')"
-          >Peruker</v-btn>
-          <v-btn
-            text
-            small
-            class="hidden-sm-and-down"
-            min-width="150"
-            v-on:click="$vuetify.goTo('#faq')"
-          >FAQ</v-btn>
-          <v-btn
-            text
-            small
-            class="hidden-sm-and-down"
-            min-width="150"
-            v-on:click="$vuetify.goTo('#order')"
-          >Beställning</v-btn>
-          <v-btn
-            text
-            small
-            class="hidden-sm-and-down"
-            min-width="150"
-            v-on:click="$vuetify.goTo('#omeh')"
-          >Om Enjoy hair</v-btn>
-          <v-btn
-            text
-            small
-            class="hidden-sm-and-down"
-            min-width="150"
-            v-on:click="$vuetify.goTo('#kontakt')"
-          >Kontakt</v-btn>
+          <v-btn text small class="hidden-sm-and-down" min-width="120" to="/#peruker">Peruker</v-btn>
+          <v-btn text small class="hidden-sm-and-down" min-width="120" to="/#faq">FAQ</v-btn>
+          <v-btn text small class="hidden-sm-and-down" min-width="120" to="/#order">Beställning</v-btn>
+          <v-btn text small class="hidden-sm-and-down" min-width="120" to="/#omeh">Om Enjoy hair</v-btn>
+          <v-btn text small class="hidden-sm-and-down" min-width="120" to="/#kontakt">Kontakt</v-btn>
           <v-icon
             v-on:click="openUrl('http://www.instagram.com/enjoyhair.se')"
             size="36"
@@ -60,19 +30,19 @@
           <v-list-item>
             <v-list-item-content>
               <v-list-item class="justify-center">
-                <v-btn v-on:click="drawer=false; $vuetify.goTo('#peruker')" text small>Peruker</v-btn>
+                <v-btn v-on:click="drawer=false;" to="/#peruker" text small>Peruker</v-btn>
               </v-list-item>
               <v-list-item class="justify-center">
-                <v-btn v-on:click="drawer=false; $vuetify.goTo('#faq')" text small>FAQ</v-btn>
+                <v-btn v-on:click="drawer=false;" to="/#faq" text small>FAQ</v-btn>
               </v-list-item>
               <v-list-item class="justify-center">
-                <v-btn v-on:click="drawer=false; $vuetify.goTo('#order')" text small>Beställning</v-btn>
+                <v-btn v-on:click="drawer=false;" to="/#order" text small>Beställning</v-btn>
               </v-list-item>
               <v-list-item class="justify-center">
-                <v-btn v-on:click="drawer=false; $vuetify.goTo('#omeh')" text small>Om enjoy hair</v-btn>
+                <v-btn v-on:click="drawer=false;" to="/#omeh" text small>Om enjoy hair</v-btn>
               </v-list-item>
               <v-list-item class="justify-center">
-                <v-btn v-on:click="drawer=false; $vuetify.goTo('#kontakt')" text small>Kontakt</v-btn>
+                <v-btn v-on:click="drawer=false;" to="/home" text small>Kontakt</v-btn>
               </v-list-item>
               <v-list-item class="justify-center">
                 <v-icon
@@ -103,3 +73,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.router-link-active {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
