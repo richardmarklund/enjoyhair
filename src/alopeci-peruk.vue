@@ -1,5 +1,5 @@
 <template>
-  <v-content>
+  <v-content class="pt-0">
     <v-layout row wrap align-center justify-center>
       <v-card max-width="1900" class="text-center">
         <v-card max-width="1000" class="ma-10" flat>
@@ -47,7 +47,6 @@
             indiskt ursprung. När du beställer din Freedom Hair protes får du gärna specificera vilken typ av hår
             du vill ha. Vi skräddarsyr peruken efter dina behov. Ett utmärkt sätt att förmedla dina önskemål till
             oss är via bilder, kanske ett foto av dig från förr eller en helt ny frisyr som du upptäckt.
-            Tillverkningsprocess
           </v-card-text>
         </v-card>
         <v-card max-width="1000" class="ma-10" flat>
@@ -105,25 +104,37 @@
         <v-card max-width="1000" class="ma-10" flat>
           <v-card-title class="justify-center">Hos frisören</v-card-title>
           <v-card-text>
-            Precis som växande hår bör din peruk tvättas minst en gång i veckan. Detta kan göras i duschen med
-            peruken på eller under kranen. Eftersom de flesta schampo är konstruerade för att ta bort fett från
-            hårbotten (vilket torkar ut en peruk) rekommenderar vi att schampo och balsam för torrt, färgat
-            eller permanentat hår används. Håret bör också behandlas med inpackning minst 1 gång per månad
-            för att inte torka ut.
-            Innan du blöter håret, red försiktigt ut eventuella tovor med en bredtandad kam. Börja i topparna
-            och arbeta dig uppåt. Tvätta insidan av hättan som du gör varje dag. Använd ljummet vatten (aldrig
-            varmt!) och håll peruken under kranen och låt vattnet rinna igenom håret i växtriktningen. När håret
-            är genomblött applicerar du en liten mängd schampo (motsvarande en 5-krona i storlek). Fördela
-            schampot med dina fingrar och pressa försiktigt för att arbeta upp ett lödder, gnugga inte! Skölj
-            noga under rinnande vatten. Pressa ur överflödigt vatten ur håret (undvik att pressa hättan) med en
-            torr handduk innan du applicerar balsam. Om håret är för blött kan det inte tillgodogöra sig balsam.
-            Fördela balsam över håret med dina fingrar och krama försiktigt håret. Fördela därefter balsamet
-            med en bredtandad kam och låt verka i 2-5 min (aldrig mer än 10 min). Skölj noga under ljummet,
-            rinnande vatten. Var noga med att aldrig använda varmt vatten då detta kan skada silikonet i hättan.
-            Torka genom att pressa håret i en handduk. Sätt på dig peruken och styla som vanligt eller låt den
-            torka över natten på en perukstock.
-            Skölj gärna håret innan du simmar i bassäng då blött hår inte suger upp lika mycket klor som torrt
-            hår gör. Tvätta alltid håret samma dag du simmat i havet eller bassäng
+            Välj gärna en lättskött frisyr som inte kräver fön eller varmluftsborste och tänk på att en tunn lugg
+            täcker kanten i pannan på ett bra sätt. Undvik också frisyrer som är väldigt korta i nacken.
+            Tänk på att håret inte växer ut om det klipps för kort, så ta det lugnt! Det är bättre att lämna det lite
+            för långt och sedan komma tillbaka till frisören efter ett par veckor och klippa lite till.
+            Det flesta som bär en Freedom Hair peruk vill helst att deras nya frisyr ska vara enkel att sköta och se
+            så naturlig ut som möjligt. Detta kan åstadkommas på ett ganska enkelt sätt, men din frisör kanske
+            uppskattar några tips. Att skära ut med rakblad underlättar ofta att få ett så naturligt utseende som
+            möjligt och fungerar bra för att skapa en täckkant av småhår runt nacken, vid tinningarna och
+            framför öronen. Hela håret bör dock inte tunnas med rakblad då detta kan leda till kluvna hårtoppar
+            länge fram. Eftersom allt hår i peruken är lika långt behöver håret tunnas ut en del. En tunningssax
+            är ett bra redskap för att få ett mer naturligt, aningen ojämnt utseende. Det är ofta bra att lämna
+            håret en liten aning längre än du egentligen vill ha det. Tvätta och använd protesen i sju till tio dagar
+            och återvänd sedan till salongen för en slutklippning. Kanthåret bör alltid vara kortare än det övriga
+            håret, annars kommer håret runt kanten lyfta resten av håret bort från huden och kanten på hättan
+            bli synlig. Var dock försiktig med att klippa kanthåret för kort framtill eftersom det då kan ställa sig
+            rakt ut. Kanthåret bör inte vara kortare än till ögonbrynen och om resten av luggen lämnas lång, bör
+            inga kanthår klippas precis runt benan. Lämna ett område på ca 2 cm på var sida om benan utan
+            kanthår. Om du har långt hår, behövs kanthår klippas ut längs nackkanten för att dölja den när du
+            sätter upp håret. Inte heller detta får klippas för kort utan bör vara minst 1 dm långt och tunnat för
+            att ge ett flikigt utseende. Om du väljer en kortare frisyr, rekommenderar vi att den understa
+            sektionen av håret i nacken (en 25 millimeter bred sektion längs kanten i nacken) bör vara minst
+            10mm kortare än den slutliga längden i nacken. Nästa sektion bör också vara 10mm kortare än
+            sektionen ovan. Målet är att skapa en page effekt, så att håret kommer så nära huden som möjlig.
+            Om nacklinjen blir alltför tung kan spetsen på saxen användas för att tunna ut något.
+            Vid permanent av en Freedom peruk är det viktigt att använda många spolar och plastpinnar för att
+            lyfta spolarna ifrån skalpen för att undvika märken. Var noga med att inte lyfta håret vid hårfästet,
+            utan låta håret ligga platt mot huden (över kanten på hättan) innan locken börjar. Om håret inte
+            ligger mot huden kommer hårfästet att se mycket onaturligt ut. Placera alla spolar, utom de runt
+            kanterna, i håret medan kunden har peruken på sig. Spolarna runt kanterna placeras när kunden
+            tagit av sig peruken. Detta för att locken ska ligga in mot huden och inte utåt, vilket kommer att ske
+            om spolarna placeras när kunden har peruken på sig.
           </v-card-text>
         </v-card>
         <v-card max-width="1000" class="ma-10" flat>
