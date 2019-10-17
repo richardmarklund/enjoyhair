@@ -172,8 +172,7 @@
             produktionskedjan så som tillverkning av hätta, bedömning av hårkvalité, blandning av hår,
             implantat eller reparationer. Alla är mycket kvalitetsmedvetna och engagerade i kundservice och
             produktutveckling.
-            Freedom Hair har återförsäljare i ett flertal länder och som enda återförsäljare i Skandinavien är
-            Jenny på Freedom Hair Scandinavia utbildad av Freedom Hair på Nya Zeeland. De flesta av företagets
+            Freedom Hair har återförsäljare i ett flertal länder och de flesta av företagets
             återförsäljare har själva alopecia och har därför en unik erfarenhet av vad det innebär att använda
             peruk.
           </v-card-text>
