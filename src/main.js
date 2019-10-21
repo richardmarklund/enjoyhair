@@ -6,8 +6,6 @@ import VueRouter from "vue-router";
 import alopeciperuk from "./alopeci-peruk";
 import StartPage from "./StartPage";
 import goTo from "vuetify/es5/services/goto";
-import LogRocket from "logrocket";
-LogRocket.init("zcdj8k/enjoyhair");
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
