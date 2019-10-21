@@ -192,6 +192,5 @@ export default {
 <style scoped>
 #alopeci-peruk {
   font-family: "Montserrat";
-  font-display: auto;
 }
 </style>

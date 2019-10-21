@@ -38,6 +38,5 @@ export default {
 <style scoped>
 #app {
   font-family: "Montserrat";
-  font-display: auto;
 }
 </style>
